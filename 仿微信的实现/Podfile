@@ -1,0 +1,5 @@
+target '仿微信的实现' do
+
+pod 'FDFullscreenPopGesture'
+
+end

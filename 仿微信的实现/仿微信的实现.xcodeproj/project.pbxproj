@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AAD784A673D764FF2476AEE /* libPods-仿微信的实现.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5B06C699DD7B56A3FDBD56 /* libPods-仿微信的实现.a */; };
+		A11784DD1E948D1800FF7DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A11784DC1E948D1800FF7DD9 /* main.m */; };
+		A11784E01E948D1800FF7DD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A11784DF1E948D1800FF7DD9 /* AppDelegate.m */; };
+		A11784E31E948D1800FF7DD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11784E21E948D1800FF7DD9 /* ViewController.m */; };
+		A11784E61E948D1800FF7DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11784E41E948D1800FF7DD9 /* Main.storyboard */; };
+		A11784E81E948D1800FF7DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11784E71E948D1800FF7DD9 /* Assets.xcassets */; };
+		A11784EB1E948D1800FF7DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11784E91E948D1800FF7DD9 /* LaunchScreen.storyboard */; };
+		A11784FC1E948DC800FF7DD9 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = A11784FB1E948DC800FF7DD9 /* UIColor+HEX.m */; };
+		A11785001E9490B500FF7DD9 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = A11784FF1E9490B500FF7DD9 /* UIImage+Color.m */; };
+		A11785031E9492FA00FF7DD9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11785021E9492FA00FF7DD9 /* SecondViewController.m */; };
+		A117853A1E94E7C700FF7DD9 /* PCBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11785351E94E7C700FF7DD9 /* PCBaseTableViewController.m */; };
+		A117853B1E94E7C700FF7DD9 /* PCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11785371E94E7C700FF7DD9 /* PCBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F5B06C699DD7B56A3FDBD56 /* libPods-仿微信的实现.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-仿微信的实现.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11784D81E948D1800FF7DD9 /* 仿微信的实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿微信的实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11784DC1E948D1800FF7DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A11784DE1E948D1800FF7DD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A11784DF1E948D1800FF7DD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A11784E11E948D1800FF7DD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A11784E21E948D1800FF7DD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A11784E51E948D1800FF7DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A11784E71E948D1800FF7DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A11784EA1E948D1800FF7DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A11784EC1E948D1800FF7DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11784FA1E948DC800FF7DD9 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		A11784FB1E948DC800FF7DD9 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		A11784FD1E948E1C00FF7DD9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A11784FE1E9490B500FF7DD9 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		A11784FF1E9490B500FF7DD9 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		A11785011E9492FA00FF7DD9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = BaseVC/SecondViewController.h; sourceTree = "<group>"; };
+		A11785021E9492FA00FF7DD9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = BaseVC/SecondViewController.m; sourceTree = "<group>"; };
+		A11785341E94E7C700FF7DD9 /* PCBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBaseTableViewController.h; sourceTree = "<group>"; };
+		A11785351E94E7C700FF7DD9 /* PCBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBaseTableViewController.m; sourceTree = "<group>"; };
+		A11785361E94E7C700FF7DD9 /* PCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCBaseViewController.h; sourceTree = "<group>"; };
+		A11785371E94E7C700FF7DD9 /* PCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCBaseViewController.m; sourceTree = "<group>"; };
+		C5BA453334156A7C0C5F6470 /* Pods-仿微信的实现.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿微信的实现.release.xcconfig"; path = "Pods/Target Support Files/Pods-仿微信的实现/Pods-仿微信的实现.release.xcconfig"; sourceTree = "<group>"; };
+		EA3743D6A8EAB65E556E2867 /* Pods-仿微信的实现.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿微信的实现.debug.xcconfig"; path = "Pods/Target Support Files/Pods-仿微信的实现/Pods-仿微信的实现.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A11784D51E948D1800FF7DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAD784A673D764FF2476AEE /* libPods-仿微信的实现.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1A1BC768F384A2061D7A7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B06C699DD7B56A3FDBD56 /* libPods-仿微信的实现.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A11784CF1E948D1800FF7DD9 = {
+			isa = PBXGroup;
+			children = (
+				A11784DA1E948D1800FF7DD9 /* 仿微信的实现 */,
+				A11784D91E948D1800FF7DD9 /* Products */,
+				F1647C4448E863026D61C012 /* Pods */,
+				0F1A1BC768F384A2061D7A7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A11784D91E948D1800FF7DD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A11784D81E948D1800FF7DD9 /* 仿微信的实现.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A11784DA1E948D1800FF7DD9 /* 仿微信的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				A11785331E94E7C700FF7DD9 /* BaseVC */,
+				A11784F91E948DAF00FF7DD9 /* utils */,
+				A11784DE1E948D1800FF7DD9 /* AppDelegate.h */,
+				A11784DF1E948D1800FF7DD9 /* AppDelegate.m */,
+				A11784E11E948D1800FF7DD9 /* ViewController.h */,
+				A11784E21E948D1800FF7DD9 /* ViewController.m */,
+				A11785011E9492FA00FF7DD9 /* SecondViewController.h */,
+				A11785021E9492FA00FF7DD9 /* SecondViewController.m */,
+				A11784E41E948D1800FF7DD9 /* Main.storyboard */,
+				A11784E71E948D1800FF7DD9 /* Assets.xcassets */,
+				A11784E91E948D1800FF7DD9 /* LaunchScreen.storyboard */,
+				A11784EC1E948D1800FF7DD9 /* Info.plist */,
+				A11784DB1E948D1800FF7DD9 /* Supporting Files */,
+			);
+			path = "仿微信的实现";
+			sourceTree = "<group>";
+		};
+		A11784DB1E948D1800FF7DD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A11784FD1E948E1C00FF7DD9 /* PrefixHeader.pch */,
+				A11784DC1E948D1800FF7DD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A11784F91E948DAF00FF7DD9 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A11784FE1E9490B500FF7DD9 /* UIImage+Color.h */,
+				A11784FF1E9490B500FF7DD9 /* UIImage+Color.m */,
+				A11784FA1E948DC800FF7DD9 /* UIColor+HEX.h */,
+				A11784FB1E948DC800FF7DD9 /* UIColor+HEX.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		A11785331E94E7C700FF7DD9 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				A11785341E94E7C700FF7DD9 /* PCBaseTableViewController.h */,
+				A11785351E94E7C700FF7DD9 /* PCBaseTableViewController.m */,
+				A11785361E94E7C700FF7DD9 /* PCBaseViewController.h */,
+				A11785371E94E7C700FF7DD9 /* PCBaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		F1647C4448E863026D61C012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA3743D6A8EAB65E556E2867 /* Pods-仿微信的实现.debug.xcconfig */,
+				C5BA453334156A7C0C5F6470 /* Pods-仿微信的实现.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A11784D71E948D1800FF7DD9 /* 仿微信的实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11784EF1E948D1800FF7DD9 /* Build configuration list for PBXNativeTarget "仿微信的实现" */;
+			buildPhases = (
+				8C5F72009CA10477C015FE1B /* [CP] Check Pods Manifest.lock */,
+				A11784D41E948D1800FF7DD9 /* Sources */,
+				A11784D51E948D1800FF7DD9 /* Frameworks */,
+				A11784D61E948D1800FF7DD9 /* Resources */,
+				4FCA27566604E574124E668A /* [CP] Embed Pods Frameworks */,
+				5E2D52802D9AD6730CCEC84E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿微信的实现";
+			productName = "仿微信的实现";
+			productReference = A11784D81E948D1800FF7DD9 /* 仿微信的实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A11784D01E948D1800FF7DD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaoliuTX;
+				TargetAttributes = {
+					A11784D71E948D1800FF7DD9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TFGWJBK4QR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A11784D31E948D1800FF7DD9 /* Build configuration list for PBXProject "仿微信的实现" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A11784CF1E948D1800FF7DD9;
+			productRefGroup = A11784D91E948D1800FF7DD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A11784D71E948D1800FF7DD9 /* 仿微信的实现 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A11784D61E948D1800FF7DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11784EB1E948D1800FF7DD9 /* LaunchScreen.storyboard in Resources */,
+				A11784E81E948D1800FF7DD9 /* Assets.xcassets in Resources */,
+				A11784E61E948D1800FF7DD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FCA27566604E574124E668A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿微信的实现/Pods-仿微信的实现-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2D52802D9AD6730CCEC84E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿微信的实现/Pods-仿微信的实现-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C5F72009CA10477C015FE1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A11784D41E948D1800FF7DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11784FC1E948DC800FF7DD9 /* UIColor+HEX.m in Sources */,
+				A117853A1E94E7C700FF7DD9 /* PCBaseTableViewController.m in Sources */,
+				A11785001E9490B500FF7DD9 /* UIImage+Color.m in Sources */,
+				A11784E31E948D1800FF7DD9 /* ViewController.m in Sources */,
+				A11785031E9492FA00FF7DD9 /* SecondViewController.m in Sources */,
+				A11784E01E948D1800FF7DD9 /* AppDelegate.m in Sources */,
+				A117853B1E94E7C700FF7DD9 /* PCBaseViewController.m in Sources */,
+				A11784DD1E948D1800FF7DD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A11784E41E948D1800FF7DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11784E51E948D1800FF7DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A11784E91E948D1800FF7DD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A11784EA1E948D1800FF7DD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A11784ED1E948D1800FF7DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A11784EE1E948D1800FF7DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A11784F01E948D1800FF7DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3743D6A8EAB65E556E2867 /* Pods-仿微信的实现.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TFGWJBK4QR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/liuwp/学习/透明不透明导航栏切换/仿微信的实现/仿微信的实现/PrefixHeader.pch";
+				INFOPLIST_FILE = "仿微信的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoliuTX.lwp.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A11784F11E948D1800FF7DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BA453334156A7C0C5F6470 /* Pods-仿微信的实现.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TFGWJBK4QR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/liuwp/学习/透明不透明导航栏切换/仿微信的实现/仿微信的实现/PrefixHeader.pch";
+				INFOPLIST_FILE = "仿微信的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoliuTX.lwp.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A11784D31E948D1800FF7DD9 /* Build configuration list for PBXProject "仿微信的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11784ED1E948D1800FF7DD9 /* Debug */,
+				A11784EE1E948D1800FF7DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11784EF1E948D1800FF7DD9 /* Build configuration list for PBXNativeTarget "仿微信的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11784F01E948D1800FF7DD9 /* Debug */,
+				A11784F11E948D1800FF7DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A11784D01E948D1800FF7DD9 /* Project object */;
+}

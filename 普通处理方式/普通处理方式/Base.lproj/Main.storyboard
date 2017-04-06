@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0Sd-OT-pHJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="z1R-Hd-Y3i">
+            <objects>
+                <navigationController id="0Sd-OT-pHJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="15B-zR-OHe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cIi-rf-nhB" kind="relationship" relationship="rootViewController" id="Q5Q-Km-QpT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d9J-3A-dem" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-924" y="120"/>
+        </scene>
+        <!--First Page-->
+        <scene sceneID="jJG-Hu-Rig">
+            <objects>
+                <viewController id="cIi-rf-nhB" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lq4-KE-j8A"/>
+                        <viewControllerLayoutGuide type="bottom" id="zH0-6P-aVE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gzg-QY-Ylp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qva-4z-CYy">
+                                <rect key="frame" x="40" y="583" width="295" height="44"/>
+                                <color key="backgroundColor" red="0.68174913194444442" green="0.92442491319444442" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="pom-l3-8CC"/>
+                                </constraints>
+                                <state key="normal" title="跳转"/>
+                                <connections>
+                                    <segue destination="VQS-vm-D0P" kind="push" id="zPV-ed-hft"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zH0-6P-aVE" firstAttribute="top" secondItem="Qva-4z-CYy" secondAttribute="bottom" constant="40" id="BSb-Px-84u"/>
+                            <constraint firstItem="Qva-4z-CYy" firstAttribute="leading" secondItem="Gzg-QY-Ylp" secondAttribute="leading" constant="40" id="grU-f5-Bie"/>
+                            <constraint firstAttribute="trailing" secondItem="Qva-4z-CYy" secondAttribute="trailing" constant="40" id="qCl-dv-vcE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="First Page" id="9K2-iY-0TJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxK-Ku-vVz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-188" y="119"/>
+        </scene>
+        <!--Second Page-->
+        <scene sceneID="XMo-cE-sBc">
+            <objects>
+                <viewController id="VQS-vm-D0P" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wgg-IF-N89"/>
+                        <viewControllerLayoutGuide type="bottom" id="vDw-kb-vrl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HGf-4G-7dx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Second Page" id="83C-1k-4YM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="toY-LM-aqn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="542" y="118"/>
+        </scene>
+    </scenes>
+</document>

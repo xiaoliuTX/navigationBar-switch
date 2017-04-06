@@ -1,0 +1,5 @@
+target ‘普通处理方式’ do
+
+pod 'FDFullscreenPopGesture'
+
+end
